@@ -1,0 +1,12 @@
+DOM ==>
+1. node ==> generic name for any type of object of DOM
+  node can be: document, document.body, HTML tag, text node
+  many types: text nodes, comment nodes, document nodes, etc.
+2. window ==> browser window, highest level global object
+3. window.document, document ==> highest level DOM document object
+4. element ==> HTML tag nodes, <p>, <h2> ==> all element nodes
+5. text node ==> text inside HTML node, <p>abcde</p> ==> abcde is "text
+node", <p> is element node
+6. event ==>
+  1. all DOM nodes have events
+  2. event object ==> 1st arg to any event handler
